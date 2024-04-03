@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+  }
+
+.page_box{
+  margin: 0px;
+  padding-top: 10px;
+}
+.page{
+    margin: 40px;
+    background-color: #0B0B0B;
+    min-height: 550px;
+    border: 2px solid #3D5F41;
+}
+.navigation_bar{
+    margin:0px;
+    padding-top: 10px;
+    min-height: 40px;
+    background-color: #0B0B0B;
+    border-bottom: 2px solid #3D5F41;
+    position:relative;
+    z-index: 2;
+    
+}
+.nav_text{
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+  nav ul {
+    margin: 10px;
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+  }
+  
+  nav ul li a:hover {
+    color: grey;
+  }
+  
+.glow{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #3D5F41;
+    box-shadow: 0 0 100px 100px #3D5F41; 
+    position:relative;
+    z-index: 1;
+    
+    justify-content: center;
+    align-items: center;
+    display: block;
+    text-align: center;
+        
+}
+.content_box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x:scroll;
+  overflow-y: hidden;
+}
+.inner_content_box{
+    max-width: 620px;
+    min-width: 620px;
+    padding:0px;
+    margin: 0px;
+    background-color: #0B0B0B;
+    min-height: 500px;
+}
+.scroll_box{
+  width:1600px;
+  padding-left: 350px;;
+  display: flex;
+  white-space: nowrap;
+}
+.scroll_content_box{
+  border-right: 2px solid #3D5F41;
+  min-width: 400px;
+  max-width: 400px;
+  padding:0px;
+  margin: 0px;;
+  background-color: #0B0B0B;
+  min-height: 500px;
+}
+h1{
+  padding-top:150px;
+  margin-bottom: 0px;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 50px;
+  font-weight: 200;
+  font-style: normal;
+  position:relative;
+  z-index: 3;
+  color: white;
+}
+
+h2{
+  padding-top:20px;
+  font-size: 35px;
+  font-family: "Electrolize", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.inner_text{
+  padding-top:0px;
+  margin:0px;
+  font-size: 0px;
+  font-family: "Electrolize", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:30px;
+  color: white;
+}
+
+.Pixel_headings{
+  padding-top:10px;
+  margin-bottom: 0px;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 20px;
+  font-weight: 200;
+  font-style: normal;
+  color: white;
+}  
+  .project {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+::-webkit-scrollbar {
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B0B0B; 
+  border-top: 2px solid #3D5F41;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3D5F41; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.download-btn {
+  font-family: Exo 2;
+  display: inline-block;
+  text-align: center;
+  width:200px;;
+  margin-top:50px;
+  margin-left:20px;
+  padding: 10px 20px;
+  background-color: #3D5F41;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease;
+}
+.download-btn:hover {
+  background-color: #555;
+}

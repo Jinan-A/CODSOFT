@@ -1,0 +1,110 @@
+  body{
+    margin:0px;
+    padding:0px;
+  }
+  header {
+    background-color: #16A9B0;
+    height: 30px;
+    min-width:97%;
+    color: #fff;
+    padding: 20px;
+    display:flex;
+    position:fixed;
+    align-items: center;
+    margin:0px;
+    box-shadow: 10px;
+    border-bottom:1px solid white;
+  }
+  h1{
+    margin-right:340px;
+    font-family: "Exo 2", sans-serif;
+
+  }
+  .header_text{
+    margin-right:15px;
+    text-decoration: none;
+    color:white;
+    font-family: "Exo 2", sans-serif;
+    font-size: 20px;
+  }  
+  .header_text:hover{
+    color:#c9c9c9;
+  }
+  .register-btn {
+    margin-left: 20px;
+    font-family:"Exo 2";
+    display: inline-block;
+    text-align: center;
+    width:150px;;
+    padding: 10px 20px;
+    background-color: white;
+    color: #16A9B0;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius:10px;
+    border: 0px solid;
+  }
+  .register-btn:hover {
+    background-color: #c9c9c9;
+  }
+  
+
+
+  section{
+    display: block;
+    margin-bottom:20px;
+  }
+
+  .title{
+    color:darkblue;
+    font-family: "Exo 2";
+    font-size:40px;
+    text-decoration: underline;
+    margin-left: 50px;
+  }
+  .details{
+    color:black;
+    font-family: "Exo 2";
+    font-size:20px;
+    max-width:1350px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+  }
+  .details-headings{
+    color:#16A9B0;
+    font-family: "Exo 2";
+    font-size:25px;
+    font-weight:bold;
+    max-width:1350px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+  }
+  .projects{
+    background-color: #16A9B0;
+    border-radius: 10px;
+    margin: 30px;
+    margin-top:0px;
+    min-width: 400px;
+    min-height: 300px;
+    color:white;
+    font-family: "Exo 2";
+    font-weight: bold;
+    font-size: 30px;
+    text-align:center;
+    justify-items:center;
+  }
+
+
+  
+  footer {
+    background-color:#16A9B0;
+    color: #fff;
+    text-align: center;
+    justify-items: center;
+    padding-bottom:5px;
+  }
+  
